@@ -1,8 +1,5 @@
 #!/usr/bin/env python2
 # -*- coding: utf8 -*-
-#Version 0.4
-#Author Codarren Velvindron
-#License MIT
 #recon_dom_title is a quick
 #tool thats sole purpose is to do reconaissance
 #for a list of subdomains and then to
@@ -83,8 +80,9 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    positive("Your output filename was created !")
-    info ("Domain checker by Codarren Velvindron")
+    info("Your output filename was created !")
+    positive ("Recon_dom_title by Codarren Velvindron")
+    positive ("Version 0.5")
     info ("Give me urls and I give titles!")	
     info ("Website Tested: " + m)
     #f.close()
