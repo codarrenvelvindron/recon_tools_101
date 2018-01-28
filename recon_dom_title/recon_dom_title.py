@@ -1,5 +1,8 @@
 #!/usr/bin/env python2
 # -*- coding: utf8 -*-
+#Version 0.4
+#Author Codarren Velvindron
+#License MIT
 #recon_dom_title is a quick
 #tool thats sole purpose is to do reconaissance
 #for a list of subdomains and then to
