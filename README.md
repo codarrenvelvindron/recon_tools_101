@@ -1,8 +1,11 @@
-[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * Recon tools 101 is made up of a number of tools specifically for reconaissance
+
+1. Recon toolbox
 1. Sublist3r (By Ahmed Aboul-Ela)
 2. recon_dom_tile (by Codarren Velvindron)
+
 and more to come soon!
 
 ## Usage
