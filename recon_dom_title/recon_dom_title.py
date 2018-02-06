@@ -65,13 +65,13 @@ def silent(t):
 
 def outtro():
     print "** Successfully scanned **"
-    print "** Please see %s for full log**" % (output_filename,)
+    print "** Please see %s for full log in output folder**" % (output_filename)
     fh.write("** Successfully scanned **")
     fh.close()    
 
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
-    if os.path.isfile(n):
+    if os.path.join("./subdomains", n):
         positive("Input file: " + n + " was found")
         return 1
     else:
@@ -80,11 +80,13 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    info("Your output filename was created !")
+    positive ("========**************========")
     positive ("Recon_dom_title by Codarren Velvindron")
+    positive ("========**************========")
     positive ("Version 0.5")
-    info ("Give me urls and I give titles!")	
-    info ("Website Tested: " + m)
+    info ("Give me urls and I give titles!")
+    info ("Website Tested: " + m)    
+    info("Your output filename was created !")
     #f.close()
 	
 #5-Url checker
@@ -109,7 +111,7 @@ def requests_retry_session(
 
 
 def return_titles(i, o):
-    filepath = i
+    filepath = os.path.join("./subdomains", i)
     num_lines = sum(1 for line in open(filepath))
     info('Scanning titles for: ' + str(num_lines) + ' urls')
 
@@ -175,8 +177,9 @@ if __name__ == "__main__":
     z = mainurl.split('.')
     name = z[0]
     input_filename = "input_" + mainurl + ".txt"
-    output_filename = "output_title_" + mainurl + ".txt"	
-    fh = open(output_filename, "a")
+    output_filename = "output_title_" + mainurl + ".txt"
+    fn = os.path.join("./output/",output_filename)
+    fh = open(fn, "a")
 
 
     main()
