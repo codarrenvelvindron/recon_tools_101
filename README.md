@@ -9,6 +9,8 @@
 and more to come soon!
 
 ## Usage
+* Clone this repository
+* cd recon_tools_101
 * ./setup.sh for initial setup
 * Run ./recon_toolbox.sh
 * Enter domain to scan
