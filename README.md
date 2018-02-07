@@ -2,7 +2,7 @@
 ## Recon Tools 101
 * Recon tools 101 is made up of a number of tools specifically for reconaissance
 
-1. Recon toolbox
+1. Recon toolbox - combines the tools together
 1. Sublist3r (By Ahmed Aboul-Ela)
 2. recon_dom_tile (by Codarren Velvindron)
 
