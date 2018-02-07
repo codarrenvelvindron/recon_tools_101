@@ -25,7 +25,7 @@ elif [ -f /etc/redhat-release ]; then
     echo "+dnspython"
     sudo yum install python-dns
     echo "+argparse"
-    sudo yum install python-argparse
+    sudo pip install argparse
 else
     echo "This is something else, I cannot continue, please read the manual"
 fi
