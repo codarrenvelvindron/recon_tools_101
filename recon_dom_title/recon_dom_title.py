@@ -178,7 +178,7 @@ if __name__ == "__main__":
     z = mainurl.split('.')
     name = z[0]
     input_filename = "input_" + mainurl + ".txt"
-    output_filename = "output_title" + mainurl + ".txt"
+    output_filename = "titles_" + mainurl + ".txt"
     fn = os.path.join("./output/",output_filename)
     fh = open(fn, "a")
 
