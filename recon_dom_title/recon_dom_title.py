@@ -64,6 +64,7 @@ def silent(t):
     fh.write("[-]" + text + "\n")
 
 def outtro():
+    print (G)
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
     fh.write("** Successfully scanned **")
