@@ -64,6 +64,7 @@ def silent(t):
     fh.write("[-]" + text + "\n")
 
 def outtro():
+    print (G)
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
     fh.write("** Successfully scanned **")
@@ -177,7 +178,7 @@ if __name__ == "__main__":
     z = mainurl.split('.')
     name = z[0]
     input_filename = "input_" + mainurl + ".txt"
-    output_filename = "output_title" + mainurl + ".txt"
+    output_filename = "titles_" + mainurl + ".txt"
     fn = os.path.join("./output/",output_filename)
     fh = open(fn, "a")
 

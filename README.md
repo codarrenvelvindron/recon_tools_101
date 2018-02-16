@@ -23,3 +23,9 @@ are stored in an output folder
 * Codarren Velvindron (codarren@hackers.mu)
 * For questions and suggestions kindly send me a mail
 * or open an issue
+
+## Donations
+* Code is free and donations are always welcome.
+* In case this tool helped you get a huge bounty, please
+consider sparing a dollar or two to support my work :)
+* Paypal account: mumandcomu@gmail.com
