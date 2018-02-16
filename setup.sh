@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo **Making directories
 mkdir -p output subdomains
 echo ..done
