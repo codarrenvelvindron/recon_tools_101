@@ -84,10 +84,10 @@ def output_file_init(n, m):
     positive ("========**************========")
     positive ("Recon_dom_title by Codarren Velvindron")
     positive ("========**************========")
-    positive ("Version 0.5")
+    positive ("Version 1.0")
     info ("Give me urls and I give titles!")
     info ("Website Tested: " + m)    
-    info("Your output filename was created !")
+    info ("Your output filename was created !")
     #f.close()
 	
 #5-Url checker

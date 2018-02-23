@@ -1,13 +1,17 @@
-# recon_dom_title
+# recon_dom_cleanup
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-* A python script that is meant for reconaissance.
-* It takes a list of subdomains of a particular domain
-* from a file and returns all titles of that domain.
+* A python script that invalidates subdomain urls.
+* From a list of subdomains, those which contain
+* valid urls that can be resolved will be kept.
 
 ## Usage
-* chmod +x recon_dom_title_v0.2.py
-* ./recon_dom_title_v0.2.py -d example.com
+* chmod +x recon_dom_cleanup.py
+* ./recon_dom_cleanup.py -d example.com
+
+## Changelog
+* Version 1.0 - Takes a list of urls, keeps valid urls
+and saves them in a file called clean_domainname.txt
 
 ## Author
 * Codarren Velvindron (codarren@hackers.mu)
