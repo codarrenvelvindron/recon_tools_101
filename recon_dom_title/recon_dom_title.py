@@ -121,7 +121,6 @@ def return_titles(i, o):
         lines = [line.rstrip('\n') for line in open(filepath)]
         #urls
         for x in lines:
-            t0 = time.time()
             try:
                 x = "http://" + x
                 info (x)

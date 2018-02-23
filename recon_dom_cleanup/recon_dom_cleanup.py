@@ -17,7 +17,6 @@ import os
 import sys
 import os.path
 import requests
-import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
@@ -58,7 +57,7 @@ def outtro():
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
     #fh.write("** Successfully scanned **")
-    fh.close() 
+    fh.close()
 
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
@@ -76,7 +75,7 @@ def output_file_init(n, m):
     info ("========**************========")
     info ("Version 0.1")
     info ("Let me check, and invalidate urls!")
-    info ("Website Tested: " + m) 
+    info ("Website Tested: " + m)
     info ("Your output filename was created  !")
 
 #5-Url checker
