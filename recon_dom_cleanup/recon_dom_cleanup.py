@@ -76,10 +76,9 @@ def output_file_init(n, m):
     info ("========**************========")
     info ("Version 0.1")
     info ("Let me check, and invalidate urls!")
-    info ("Website Tested: " + m)    
+    info ("Website Tested: " + m) 
     info ("Your output filename was created  !")
-    #f.close()
-	
+
 #5-Url checker
 def requests_retry_session(
     retries=1,
@@ -111,7 +110,6 @@ def return_valid(i, o):
         lines = [line.rstrip('\n') for line in open(filepath)]
         #urls
         for x in lines:
-            t0 = time.time()
             try:
                 y = "http://" + x
                 info (y)
@@ -138,7 +136,7 @@ def main():
         output_file_init(output_filename, mainurl)
 
         #4-Read input file and urls
-        return_valid(input_filename, output_filename) 
+        return_valid(input_filename, output_filename)
         outtro()
     else:
         info ("No file with name input_%domain%.txt")
@@ -149,7 +147,7 @@ if __name__ == "__main__":
     args = parse_args()
     if not args.domain:
         sys.exit('[!] Enter domain to check please: ./recon_dom_title.py -d "test.org"')
-    if "http" in args.domain: 
+    if "http" in args.domain:
         sys.exit('[!] Must be in the format: -d "example.com"')
 
     mainurl = args.domain

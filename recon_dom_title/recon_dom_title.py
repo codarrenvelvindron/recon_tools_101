@@ -140,9 +140,6 @@ def return_titles(i, o):
             except Exception as x:
                 output = 'exception found, non-existant domain'
                 negative(output)
-            finally:
-                #info('Took' + str(timediff) + 'seconds')
-
 
 #Main function
 def main():
