@@ -1,16 +1,16 @@
-# recon_dom_header
+# recon_dom_server
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * A python script that is meant for reconaissance.
 * It takes a list of subdomains of a particular domain
-* from a file and returns server headers.
+* from a file and returns server header.
 
 ## Usage
-* chmod +x recon_dom_header.py
-* ./recon_dom_header.py -d example.com
+* chmod +x recon_dom_server.py
+* ./recon_dom_server.py -d example.com
 
 ## Changelog
-* Version 0.1: Some bugs corrected.
+* Version 0.1: 
 It takes input from recon_dom_cleanup i.e. valid urls
 And returns server headers.
 
