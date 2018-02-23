@@ -81,9 +81,12 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    positive ("========**************========")
-    positive ("Recon_dom_title by Codarren Velvindron")
-    positive ("========**************========")
+    print("""%s
+  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^  
+ /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /t\ /i\ /t\ /l\ /e\ 
+<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___>%s%s
+         ==Codarren Velvindron== | codarren@hackers.mu
+    """ % (G,Y,W))
     positive ("Version 1.0")
     info ("Give me urls and I give titles!")
     info ("Website Tested: " + m)

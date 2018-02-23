@@ -70,10 +70,13 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    info ("========**************========")
-    info ("Recon_dom_cleanup by Codarren Velvindron")
-    info ("========**************========")
-    info ("Version 0.1")
+    print("""%s
+  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^   ^   ^  
+ /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /c\ /l\ /e\ /a\ /n\ /u\ /p\ 
+<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___X___X___>%s%s
+
+                ==Codarren Velvindron== | codarren@hackers.mu
+    """ % (G,Y,W))
     info ("Let me check, and invalidate urls!")
     info ("Website Tested: " + m)
     info ("Your output filename was created  !")

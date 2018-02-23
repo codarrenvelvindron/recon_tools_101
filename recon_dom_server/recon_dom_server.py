@@ -71,9 +71,13 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    positive ("========**************========")
-    positive ("Recon_dom_header by Codarren Velvindron")
-    positive ("========**************========")
+    print("""%s
+  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^   ^  
+ /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /s\ /e\ /r\ /v\ /e\ /r\ 
+<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___X___>%s%s
+         ==Codarren Velvindron== | codarren@hackers.mu
+    """ % (G,Y,W))
+
     positive ("Version 0.1")
     info ("Give me urls and I'll check the server headers!")
     info ("Website Tested: " + m)
@@ -117,10 +121,11 @@ def return_titles(i, o):
                 r = requests_retry_session().get(x, timeout = 2)
                 al = r.headers['server']
                 try:
-                    if str(al) == "None"
+                    d = str(al)
+                    if (d is "None"):
                         negative("empty header")
-                    else
-                        positive(al)
+                    else:
+                        positive(d)
                 except:
                     d = "nothing found, you should check!"
             except Exception as x:
