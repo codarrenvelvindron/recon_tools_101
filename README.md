@@ -34,4 +34,4 @@ are stored in an output folder
 * Code is free and donations are always welcome.
 * In case this tool helped you get a huge bounty, please
 consider sparing a dollar or two to support my work :)
-* [Paypal donation](paypal.me/codarren/5)
+* [Paypal donation](https://www.paypal.me/codarren/5)
