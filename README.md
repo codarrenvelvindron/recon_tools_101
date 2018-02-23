@@ -6,7 +6,7 @@
 2. Sublist3r (By Ahmed Aboul-Ela) returns a list of subdomains
 3. recon_dom_cleanup (by Codarren Velvindron) returns valid urls from a list of urls.
 4. recon_dom_title (by Codarren Velvindron) from each valid url return title of the page.
-
+5. recon_dom_server (By Codarren Velvindron) from each valid url, return the server header.
 and more to come soon!
 
 ## Version
