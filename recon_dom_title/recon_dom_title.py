@@ -47,7 +47,7 @@ def result(t):
     text = t
     print (R + "-->" + text)
     fh.write("-->" + text + "\n")
-    
+
 def negative(t):
     text = t
     print (R + "[-]" + text)
@@ -68,7 +68,7 @@ def outtro():
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
     fh.write("** Successfully scanned **")
-    fh.close()    
+    fh.close()
 
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
@@ -86,7 +86,7 @@ def output_file_init(n, m):
     positive ("========**************========")
     positive ("Version 1.0")
     info ("Give me urls and I give titles!")
-    info ("Website Tested: " + m)    
+    info ("Website Tested: " + m)
     info ("Your output filename was created !")
     #f.close()
 	
@@ -120,7 +120,6 @@ def return_titles(i, o):
         line = fp.readlines()
         lines = [line.rstrip('\n') for line in open(filepath)]
         #urls
-        cnt = 0
         for x in lines:
             t0 = time.time()
             try:
@@ -141,12 +140,7 @@ def return_titles(i, o):
             except Exception as x:
                 output = 'exception found, non-existant domain'
                 negative(output)
-            else:
-                poststatus = 'It worked eventually' + str(r.status_code)
-                #positive(poststatus)
             finally:
-                t1 = time.time()
-                timediff = t1 - t0
                 #info('Took' + str(timediff) + 'seconds')
 
 

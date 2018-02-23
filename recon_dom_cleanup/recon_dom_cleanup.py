@@ -17,7 +17,6 @@ import os
 import sys
 import os.path
 import requests
-import re
 import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
@@ -59,7 +58,7 @@ def outtro():
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
     #fh.write("** Successfully scanned **")
-    fh.close()    
+    fh.close() 
 
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
