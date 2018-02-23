@@ -1,13 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding: utf8 -*-
-#recon_dom_title is a quick
-#tool thats sole purpose is to do reconaissance
-#for a list of subdomains and then to
-#returns the title out of the subdomains
-#of a particular domain
+#recon_dom_cleanup
+#sole purpose is to do sort out urls from
+#a list of subdomains and
+#returns those that are currently active
+#i.e. that exist and resolve
 
 #Usage:Make it executable first chmod +x
-# ./recon_dom_title.py -d example.com
+# ./recon_dom_cleanup.py -d example.com
 #it will then look for the list of urls from
 #input_example.com.txt so all your urls must be
 #in that file
@@ -17,8 +17,6 @@ import os
 import sys
 import os.path
 import requests
-import re
-import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
@@ -38,58 +36,48 @@ W = '\033[0m'   # white
 
 #l-LOGGING all text is written to the output file using
 #keyword(text)
+def invalid(t):
+    text = t
+    print (R + "[-]" + text)
+    #fh.write(text + "\n")
+
+def valid(t):
+    text = t
+    print (G + "[+]" + text)
+    fh.write(text + "\n")
+
 def info(t):
     text = t
     print (W + "[!]" + text)
-    fh.write("[!]" + text + "\n")
+    #fh.write(text + "\n")
 
-def result(t):
-    text = t
-    print (R + "-->" + text)
-    fh.write("-->" + text + "\n")
-
-def negative(t):
-    text = t
-    print (R + "[-]" + text)
-    fh.write("[-]" + text + "\n")
-
-def positive(t):
-    text = t
-    print (G + "[+]" + text)
-    fh.write("[+]" + text + "\n")
-
-def silent(t):
-    text = t
-    print (Y + ">>Skipping")
-    fh.write("[-]" + text + "\n")
 
 def outtro():
     print (G)
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
-    fh.write("** Successfully scanned **")
+    #fh.write("** Successfully scanned **")
     fh.close()
 
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
     if os.path.join("./subdomains", n):
-        positive("Input file: " + n + " was found")
+        info("Input file: " + n + " was found")
         return 1
     else:
-        negative("Input file: " + n + " was NOT found")
+        info("Input file: " + n + " was NOT found")
         return 0
 
 #3-Output file creator
 def output_file_init(n, m):
-    positive ("========**************========")
-    positive ("Recon_dom_title by Codarren Velvindron")
-    positive ("========**************========")
-    positive ("Version 1.0")
-    info ("Give me urls and I give titles!")
+    info ("========**************========")
+    info ("Recon_dom_cleanup by Codarren Velvindron")
+    info ("========**************========")
+    info ("Version 0.1")
+    info ("Let me check, and invalidate urls!")
     info ("Website Tested: " + m)
-    info ("Your output filename was created !")
-    #f.close()
-	
+    info ("Your output filename was created  !")
+
 #5-Url checker
 def requests_retry_session(
     retries=1,
@@ -110,66 +98,63 @@ def requests_retry_session(
     session.mount('https://', adapter)
     return session
 
-
-def return_titles(i, o):
+def return_valid(i, o):
     filepath = os.path.join("./subdomains", i)
     num_lines = sum(1 for line in open(filepath))
-    info('Scanning titles for: ' + str(num_lines) + ' urls')
-
+    info('Scanning validity for: ' + str(num_lines) + ' urls')
+    valid_counter = 0
+    invalid_counter = 0
     with open(filepath) as fp:
         line = fp.readlines()
         lines = [line.rstrip('\n') for line in open(filepath)]
         #urls
         for x in lines:
             try:
-                x = "http://" + x
-                info (x)
-                r = requests_retry_session().get(x, timeout = 2)
-                al = r.text
-                try:
-                    d = re.search('(?<=<title>).+?(?=</title>)', al, re.DOTALL).group().strip()
-                except:
-                    d = "nothing found, you should check!"
-                #if d contains part of the url, it should be tagged as normal
-                d = str(d)
-                if name in d.lower():
-                    result(d)
+                y = "http://" + x
+                info (y)
+                r = requests_retry_session().get(y, timeout = 1)
+                if (r.status_code == 200):
+                    valid(x)
+                    valid_counter += 1
                 else:
-                    positive(d)
-            except Exception as x:
-                output = 'exception found, non-existant domain'
-                negative(output)
+                    valid(x)
+                    valid_counter += 1
 
+            except Exception as y:
+                invalid(x)
+                invalid_counter += 1
+
+        info ("Valid urls: " + str(valid_counter))
+        info ("Invalid urls: " + str(invalid_counter))
 #Main function
 def main():
     #Start reading file if exists or stop if not exists
     if (input_filename_check(input_filename)) == 1:
-        positive("Reading input file")
-		#3-Create output file to store results
+        info("Reading input file")
+        #03-Create output file to store results
         output_file_init(output_filename, mainurl)
 
-		#4-Read input file and urls
-        return_titles(input_filename, output_filename)
-        
+        #4-Read input file and urls
+        return_valid(input_filename, output_filename)
         outtro()
     else:
-        negative("No file with name input_%domain%.txt")
-        negative("I cannot continue")
+        info ("No file with name input_%domain%.txt")
+        info ("I cannot continue")
 
 if __name__ == "__main__":
     #0-Globals
     args = parse_args()
     if not args.domain:
         sys.exit('[!] Enter domain to check please: ./recon_dom_title.py -d "test.org"')
-    if "http" in args.domain: 
+    if "http" in args.domain:
         sys.exit('[!] Must be in the format: -d "example.com"')
 
     mainurl = args.domain
     z = mainurl.split('.')
     name = z[0]
-    input_filename = "clean_" + mainurl + ".txt"
-    output_filename = "titles_" + mainurl + ".txt"
-    fn = os.path.join("./output/",output_filename)
+    input_filename = "input_" + mainurl + ".txt"
+    output_filename = "clean_" + mainurl + ".txt"
+    fn = os.path.join("./subdomains/",output_filename)
     fh = open(fn, "w")
 
 

@@ -6,8 +6,15 @@
 * from a file and returns all titles of that domain.
 
 ## Usage
-* chmod +x recon_dom_title_v0.2.py
-* ./recon_dom_title_v0.2.py -d example.com
+* chmod +x recon_dom_title.py
+* ./recon_dom_title.py -d example.com
+
+## Changelog
+* Version 1.0: Some bugs corrected.
+It now takes input from recon_dom_cleanup i.e. valid urls
+The output files are no longer appended, a new file is created.
+
+* Version 0.5: Takes a list of urls and returns titles
 
 ## Author
 * Codarren Velvindron (codarren@hackers.mu)
