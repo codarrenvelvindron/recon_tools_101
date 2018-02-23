@@ -10,8 +10,8 @@
 and more to come soon!
 
 ## Version
-1. Version 0.1 - had Sublist3r and recon_dom_title and returned all titles from all urls.
-2. Version 1.1 - + recon_dom_cleanup which invalidates urls so that the result is current.
+* Version 1.1 - + recon_dom_cleanup which invalidates urls so that the result is current.
+* Version 0.1 - had Sublist3r and recon_dom_title and returned all titles from all urls.
 
 ## Usage
 * Clone this repository
