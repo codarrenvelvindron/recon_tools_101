@@ -18,7 +18,6 @@ import sys
 import os.path
 import requests
 import re
-import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
@@ -172,7 +171,7 @@ if __name__ == "__main__":
     name = z[0]
     input_filename = "clean_" + mainurl + ".txt"
     output_filename = "titles_" + mainurl + ".txt"
-    fn = os.path.join("./output/",output_filename)
+    fn = os.path.join("./output/", mainurl, output_filename)
     fh = open(fn, "w")
 
 

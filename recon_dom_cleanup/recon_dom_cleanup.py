@@ -148,7 +148,7 @@ if __name__ == "__main__":
     #0-Globals
     args = parse_args()
     if not args.domain:
-        sys.exit('[!] Enter domain to check please: ./recon_dom_title.py -d "test.org"')
+        sys.exit('[!] Enter domain to check please: ./recon_dom_cleanup.py -d "test.org"')
     if "http" in args.domain:
         sys.exit('[!] Must be in the format: -d "example.com"')
 
