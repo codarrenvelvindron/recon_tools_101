@@ -41,23 +41,22 @@ W = '\033[0m'   # white
 def info(t):
     text = t
     print (W + "[!]" + text)
-    fh.write("[!]" + text + "\n")
+    fh.write(text + "\n")
 
 def negative(t):
     text = t
     print (R + "[-]" + text)
-    fh.write("[-]" + text + "\n")
+    fh.write(text + "\n")
 
 def positive(t):
     text = t
     print (G + "[+]" + text)
-    fh.write("[+]" + text + "\n")
+    fh.write(text + "\n")
 
 def outtro():
     print (G)
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
-    fh.write("** Successfully scanned **")
     fh.close()
 
 #2-Basis for filename/checking if file exists
@@ -78,7 +77,7 @@ def output_file_init(n, m):
          ==Codarren Velvindron== | codarren@hackers.mu
     """ % (G,Y,W))
 
-    positive ("Version 0.1")
+    positive ("Version 1.0")
     info ("Give me urls and I'll check the server headers!")
     info ("Website Tested: " + m)
     info ("Your output filename was created !")
@@ -108,7 +107,7 @@ def requests_retry_session(
 def return_titles(i, o):
     filepath = os.path.join("./subdomains", i)
     num_lines = sum(1 for line in open(filepath))
-    info('Scanning titles for: ' + str(num_lines) + ' urls')
+    info('Scanning server headers for: ' + str(num_lines) + ' urls')
 
     with open(filepath) as fp:
         line = fp.readlines()
@@ -123,13 +122,13 @@ def return_titles(i, o):
                 try:
                     d = str(al)
                     if (d is "None"):
-                        negative("empty header")
+                        negative("None")
                     else:
                         positive(d)
                 except:
-                    d = "nothing found, you should check!"
+                    d = "None"
             except Exception as x:
-                output = 'Nothing found'
+                output = 'None'
                 negative(output)
 
 #Main function
