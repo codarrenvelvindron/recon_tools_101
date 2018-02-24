@@ -129,6 +129,7 @@ def return_valid(i, o):
 
         info ("Valid urls: " + str(valid_counter))
         info ("Invalid urls: " + str(invalid_counter))
+
 #Main function
 def main():
     #Start reading file if exists or stop if not exists
