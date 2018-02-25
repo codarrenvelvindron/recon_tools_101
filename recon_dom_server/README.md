@@ -10,6 +10,11 @@
 * ./recon_dom_server.py -d example.com
 
 ## Changelog
+* Version 1.0:
+Output folder is now centralised.
+Corrected a few bugs
+Added banner
+
 * Version 0.1: 
 It takes input from recon_dom_cleanup i.e. valid urls
 And returns server headers.
