@@ -62,7 +62,7 @@ def outtro():
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
     if os.path.join("./subdomains", n):
-        positive("Input file: " + n + " was found")
+        print("Input file: " + n + " was found")
         return 1
     else:
         negative("Input file: " + n + " was NOT found")
@@ -135,7 +135,7 @@ def return_titles(i, o):
 def main():
     #Start reading file if exists or stop if not exists
     if (input_filename_check(input_filename)) == 1:
-        positive("Reading input file")
+        print("Reading input file")
 		#3-Create output file to store results
         output_file_init(output_filename, mainurl)
 
