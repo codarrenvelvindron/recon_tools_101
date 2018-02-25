@@ -160,7 +160,7 @@ if __name__ == "__main__":
     name = z[0]
     input_filename = "clean_" + mainurl + ".txt"
     output_filename = "server_" + mainurl + ".txt"
-    fn = os.path.join("./output/",output_filename)
+    fn = os.path.join("./output/", mainurl, output_filename)
     fh = open(fn, "w")
 
 

@@ -158,7 +158,7 @@ if __name__ == "__main__":
     name = z[0]
     input_filename = "input_" + mainurl + ".txt"
     output_filename = "clean_" + mainurl + ".txt"
-    fn = os.path.join("./output/", mainurl, output_filename)
+    fn = os.path.join("./subdomains/", output_filename)
     fh = open(fn, "w")
 
 
