@@ -1,3 +1,0 @@
-www.hackerone.com
-api.hackerone.com
-support.hackerone.com
