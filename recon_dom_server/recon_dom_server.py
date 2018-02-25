@@ -77,10 +77,10 @@ def output_file_init(n, m):
          ==Codarren Velvindron== | codarren@hackers.mu
     """ % (G,Y,W))
 
-    positive ("Version 1.0")
-    info ("Give me urls and I'll check the server headers!")
-    info ("Website Tested: " + m)
-    info ("Your output filename was created !")
+    print ("Version 1.0")
+    print ("Give me urls and I'll check the server headers!")
+    print ("Website Tested: " + m)
+    print ("Your output filename was created !")
     #f.close()
 	
 #5-Url checker
@@ -107,7 +107,7 @@ def requests_retry_session(
 def return_titles(i, o):
     filepath = os.path.join("./subdomains", i)
     num_lines = sum(1 for line in open(filepath))
-    info('Scanning server headers for: ' + str(num_lines) + ' urls')
+    print ('Scanning server headers for: ' + str(num_lines) + ' urls')
 
     with open(filepath) as fp:
         line = fp.readlines()
