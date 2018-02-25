@@ -11,6 +11,7 @@ and more to come soon!
 
 ## Version
 * Version 1.1 - + recon_dom_cleanup which invalidates urls so that the result is current.
+[Release 1.1 available here](https://github.com/codarrenvelvindron/recon_tools_101/releases)
 * Version 0.1 - had Sublist3r and recon_dom_title and returned all titles from all urls.
 
 ## Usage
