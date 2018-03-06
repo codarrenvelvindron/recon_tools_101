@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # recon_toolbox
 # version 1.3
+
 echo "Check which domain?(e.g: example.com)"
 read domain
 mkdir -p ./output/$domain
