@@ -136,7 +136,7 @@ def main():
     #Start reading file if exists or stop if not exists
     if (input_filename_check(input_filename)) == 1:
         print("Reading input file")
-		#3-Create output file to store results
+        #3-Create output file to store results
         output_file_init(output_filename, mainurl)
 
 		#4-Read input file and urls
