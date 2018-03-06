@@ -1,13 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding: utf8 -*-
-#recon_dom_title is a quick
+#recon_dom_server is a quick
 #tool thats sole purpose is to do reconaissance
 #for a list of subdomains and then to
-#returns the title out of the subdomains
+#returns the server header out of the subdomains
 #of a particular domain
 
 #Usage:Make it executable first chmod +x
-# ./recon_dom_title.py -d example.com
+# ./recon_dom_server.py -d example.com
 #it will then look for the list of urls from
 #input_example.com.txt so all your urls must be
 #in that file
@@ -18,6 +18,7 @@ import sys
 import os.path
 import requests
 import re
+import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
@@ -40,39 +41,28 @@ W = '\033[0m'   # white
 def info(t):
     text = t
     print (W + "[!]" + text)
-    fh.write("[!]" + text + "\n")
-
-def result(t):
-    text = t
-    print (R + "-->" + text)
-    fh.write("-->" + text + "\n")
+    fh.write(text + "\n")
 
 def negative(t):
     text = t
     print (R + "[-]" + text)
-    fh.write("[-]" + text + "\n")
+    fh.write(text + "\n")
 
 def positive(t):
     text = t
     print (G + "[+]" + text)
-    fh.write("[+]" + text + "\n")
-
-def silent(t):
-    text = t
-    print (Y + ">>Skipping")
-    fh.write("[-]" + text + "\n")
+    fh.write(text + "\n")
 
 def outtro():
     print (G)
     print "** Successfully scanned **"
     print "** Please see %s for full log in output folder**" % (output_filename)
-    fh.write("** Successfully scanned **")
     fh.close()
 
 #2-Basis for filename/checking if file exists
 def input_filename_check(n):
     if os.path.join("./subdomains", n):
-        positive("Input file: " + n + " was found")
+        print("Input file: " + n + " was found")
         return 1
     else:
         negative("Input file: " + n + " was NOT found")
@@ -81,15 +71,16 @@ def input_filename_check(n):
 #3-Output file creator
 def output_file_init(n, m):
     print("""%s
-  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^  
- /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /t\ /i\ /t\ /l\ /e\ 
-<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___>%s%s
+  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^   ^  
+ /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /s\ /e\ /r\ /v\ /e\ /r\ 
+<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___X___>%s%s
          ==Codarren Velvindron== | codarren@hackers.mu
     """ % (G,Y,W))
-    positive ("Version 1.0")
-    info ("Give me urls and I give titles!")
-    info ("Website Tested: " + m)
-    info ("Your output filename was created !")
+
+    print ("Version 1.0")
+    print ("Give me urls and I'll check the server headers!")
+    print ("Website Tested: " + m)
+    print ("Your output filename was created !")
     #f.close()
 	
 #5-Url checker
@@ -116,7 +107,7 @@ def requests_retry_session(
 def return_titles(i, o):
     filepath = os.path.join("./subdomains", i)
     num_lines = sum(1 for line in open(filepath))
-    info('Scanning titles for: ' + str(num_lines) + ' urls')
+    print ('Scanning server headers for: ' + str(num_lines) + ' urls')
 
     with open(filepath) as fp:
         line = fp.readlines()
@@ -127,27 +118,25 @@ def return_titles(i, o):
                 x = "http://" + x
                 info (x)
                 r = requests_retry_session().get(x, timeout = 2)
-                al = r.text
+                al = r.headers['server']
                 try:
-                    d = re.search('(?<=<title>).+?(?=</title>)', al, re.DOTALL).group().strip()
+                    d = str(al)
+                    if (d is "None"):
+                        negative("None")
+                    else:
+                        positive(d)
                 except:
-                    d = "nothing found, you should check!"
-                #if d contains part of the url, it should be tagged as normal
-                d = str(d)
-                if name in d.lower():
-                    result(d)
-                else:
-                    positive(d)
+                    d = "None"
             except Exception as x:
-                output = 'exception found, non-existant domain'
+                output = 'None'
                 negative(output)
 
 #Main function
 def main():
     #Start reading file if exists or stop if not exists
     if (input_filename_check(input_filename)) == 1:
-        positive("Reading input file")
-		#3-Create output file to store results
+        print("Reading input file")
+        #3-Create output file to store results
         output_file_init(output_filename, mainurl)
 
 		#4-Read input file and urls
@@ -162,7 +151,7 @@ if __name__ == "__main__":
     #0-Globals
     args = parse_args()
     if not args.domain:
-        sys.exit('[!] Enter domain to check please: ./recon_dom_title.py -d "test.org"')
+        sys.exit('[!] Enter domain to check please: ./recon_dom_server.py -d "test.org"')
     if "http" in args.domain: 
         sys.exit('[!] Must be in the format: -d "example.com"')
 
@@ -170,7 +159,7 @@ if __name__ == "__main__":
     z = mainurl.split('.')
     name = z[0]
     input_filename = "clean_" + mainurl + ".txt"
-    output_filename = "titles_" + mainurl + ".txt"
+    output_filename = "server_" + mainurl + ".txt"
     fn = os.path.join("./output/", mainurl, output_filename)
     fh = open(fn, "w")
 

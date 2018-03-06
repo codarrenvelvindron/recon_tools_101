@@ -4,12 +4,15 @@
 
 1. Recon toolbox - combines the tools together
 2. Sublist3r (By Ahmed Aboul-Ela) returns a list of subdomains
-3. recon_dom_cleanup (by Codarren Velvindron) returns valid urls from a list of urls.
-4. recon_dom_title (by Codarren Velvindron) from each valid url return title of the page.
+3. recon_dom_cleanup - returns valid urls from a list of urls.
+4. recon_dom_title - from each valid url return title of the page.
+5. recon_dom_server - from each valid url, return the server header.
 
 and more to come soon!
 
 ## Version
+* Versuib 1.3 - Corrected several bugs, added centralised output folder, submodules = 1.0
+* Version 1.2 - + recon_dom_server which returns the webserver of the subdomain.
 * Version 1.1 - + recon_dom_cleanup which invalidates urls so that the result is current.
 [Release 1.1 available here](https://github.com/codarrenvelvindron/recon_tools_101/releases)
 * Version 0.1 - had Sublist3r and recon_dom_title and returned all titles from all urls.
@@ -35,4 +38,4 @@ are stored in an output folder
 * Code is free and donations are always welcome.
 * In case this tool helped you get a huge bounty, please
 consider sparing a dollar or two to support my work :)
-* [Paypal donation](https://www.paypal.me/codarren/5)
+* [Paypal donation](https://www.paypal.me/codarren/10)
