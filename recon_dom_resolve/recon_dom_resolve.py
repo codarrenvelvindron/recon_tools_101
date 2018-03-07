@@ -83,27 +83,6 @@ def output_file_init(n, m):
     print ("Website Tested: " + m)
     print ("Your output filename was created !")
     #f.close()
-	
-#5-Url checker
-def requests_retry_session(
-    retries=1,
-    backoff_factor=0.3,
-    status_forcelist=(500, 502, 504),
-    session=None,
-):
-    session = session or requests.Session()
-    retry = Retry(
-        total=retries,
-        read=retries,
-        connect=retries,
-        backoff_factor=backoff_factor,
-        status_forcelist=status_forcelist,
-    )
-    adapter = HTTPAdapter(max_retries=retry)
-    session.mount('http://', adapter)
-    session.mount('https://', adapter)
-    return session
-
 
 def return_titles(i, o):
     filepath = os.path.join("./subdomains", i)
@@ -116,7 +95,6 @@ def return_titles(i, o):
         #urls
         for x in lines:
             try:
-                #x = "http://" + x
                 info (x)
                 r = socket.gethostbyname(x)
                 try:
