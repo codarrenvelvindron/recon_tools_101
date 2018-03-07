@@ -1,0 +1,10 @@
+http://www.tapiola.fi
+None
+http://huolto.tapiola.fi
+Microsoft-IIS/8.5
+http://tapahtumat.tapiola.fi
+Microsoft-IIS/8.0
+http://viestinta.tapiola.fi
+Apache
+http://yrityspalvelu.tapiola.fi
+None

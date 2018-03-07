@@ -1,0 +1,67 @@
+[+]Input file: clean_ing.com.txt was found
+[+]Reading input file
+[+]========**************========
+[+]Recon_dom_title by Codarren Velvindron
+[+]========**************========
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: ing.com
+[!]Your output filename was created !
+[!]Scanning titles for: 28 urls
+[!]http://www.ing.com
+-->Home | ING
+[!]http://annualreview.ing.com
+-->nothing found, you should check!
+[!]http://www.annualreview.ing.com
+-->nothing found, you should check!
+[!]http://acceptation.brandportal.ing.com
+[+]403 Forbidden
+[!]http://email.brandportal.ing.com
+-->nothing found, you should check!
+[!]http://donate.ing.com
+-->ING Power for Youth
+[!]http://images.ingworld.ing.com
+-->nothing found, you should check!
+[!]http://insidebusiness.ing.com
+-->ING InsideBusiness
+[!]http://www.insidebusiness.ing.com
+-->ING InsideBusiness
+[!]http://internalvideo.ing.com
+[+]403 Forbidden
+[!]http://jaaroverzicht.ing.com
+-->nothing found, you should check!
+[!]http://www.jaaroverzicht.ing.com
+-->nothing found, you should check!
+[!]http://lyncdiscover.ing.com
+-->nothing found, you should check!
+[!]http://m.ing.com
+-->Home | ING
+[!]http://mobile.ing.com
+-->Home | ING
+[!]http://myaccount.ing.com
+[+]403 Forbidden
+[!]http://pki.ing.com
+-->ING Corporate PKI
+[!]http://www.pki.ing.com
+-->ING Corporate PKI
+[!]http://psrv-ws.ing.com
+[+]403 Forbidden
+[!]http://research.ing.com
+-->ING Global Markets Research
+[!]http://www.research.ing.com
+[+]403 - Forbidden: Access is denied.
+[!]http://search.ing.com
+-->Search | ING
+[!]http://search-acc.ing.com
+-->Search | ING
+[!]http://survey.ing.com
+-->nothing found, you should check!
+[!]http://survey2.ing.com
+-->nothing found, you should check!
+[!]http://think.ing.com
+-->ING Think - Economic and Financial Analysis | ING Think
+[!]http://video.ing.com
+-->Home | ING
+[!]http://webcast.ing.com
+-->Home | ING
+** Successfully scanned **

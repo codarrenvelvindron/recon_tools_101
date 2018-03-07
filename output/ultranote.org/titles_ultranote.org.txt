@@ -1,0 +1,28 @@
+[+]Input file: clean_ultranote.org.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: ultranote.org
+[!]Your output filename was created !
+[!]Scanning titles for: 10 urls
+[!]http://www.ultranote.org
+-->UltraNote - XUN digital cryptocurrency coin
+[!]http://alpha.ultranote.org
+-->UltraNote XUN Official Mining Pool
+[!]http://beta.ultranote.org
+-->UltraNote XUN Official BETA Mining Pool
+[!]http://blog.ultranote.org
+-->UltraNote XUN Blog
+[!]http://delta.ultranote.org
+-->UltraNote XUN Official DELTA Mining Pool
+[!]http://explorer.ultranote.org
+-->UltraNote [XUN] Block Explorer
+[!]http://forum.ultranote.org
+-->UltraNote Talk - | Community Forum
+[!]http://node.ultranote.org
+-->UltraNote XUN Official Mining Pool
+[!]http://paperwallet.ultranote.org
+[+]XUN Paper Wallet Generator
+[!]http://pool.ultranote.org
+-->UltraNote XUN Official Mining Pool
+** Successfully scanned **

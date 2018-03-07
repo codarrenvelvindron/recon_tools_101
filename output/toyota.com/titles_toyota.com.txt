@@ -1,0 +1,374 @@
+[+]Input file: clean_toyota.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: toyota.com
+[!]Your output filename was created !
+[!]Scanning titles for: 183 urls
+[!]http://www.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://DDCVDS01.toyota.com
+[+]VMware Horizon
+[!]http://DDCVDS02.toyota.com
+[+]VMware Horizon
+[!]http://DDMobileApps.toyota.com
+[+]Home
+[!]http://Dealerdaily.toyota.com
+[+]nothing found, you should check!
+[!]http://VDS08a.toyota.com
+[+]VMware Horizon
+[!]http://Wave5000.toyota.com
+[+]IIS Windows Server
+[!]http://access.toyota.com
+-->@TOYOTA ACCESS
+[!]http://account.toyota.com
+[-]exception found, non-existant domain
+[!]http://adplanner.toyota.com
+-->Toyota Ad Planner
+[!]http://adplanner2.toyota.com
+-->Toyota Ad Planner
+[!]http://www.adplanner2.toyota.com
+-->Toyota Ad Planner
+[!]http://www.ngcmh.qa.adplanner2.toyota.com
+[+]nothing found, you should check!
+[!]http://cloudfront.application.www.adplanner2.toyota.com
+[+]404 Not Found
+[!]http://cloudfront.cds.www.adplanner2.toyota.com
+[+]nothing found, you should check!
+[!]http://airflite.toyota.com
+[+]404: Page not found - HostGator
+[!]http://www.airflite.toyota.com
+[+]nothing found, you should check!
+[!]http://auth3.toyota.com
+[+]403 Forbidden
+[!]http://staging.auth3.toyota.com
+[+]403 Forbidden
+[!]http://autodiscover.toyota.com
+[+]Outlook
+[!]http://dev1.customeridentity.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://dev2.customeridentity.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://staging.customeridentity.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://test1.customeridentity.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://test2.customeridentity.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://customerprofile.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://dev2.customerprofile.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://staging.customerprofile.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://staging2.customerprofile.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://test1.customerprofile.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://test2.customerprofile.cy17.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://stage.loginapp.aws.toyota.com
+[+]404 Not Found
+[!]http://origin.oat.aws.toyota.com
+[+]Offers Admin Tool
+[!]http://origin.staging.oat.aws.toyota.com
+[+]Offers Admin Tool
+[!]http://origin.staging-ws.oat.aws.toyota.com
+[+]Offers Admin Tool
+[!]http://origin.staging.talentlink.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://origin.staging.tcom.aws.toyota.com
+[+]401 Authorization Required
+[!]http://origin.staging2.tcom.aws.toyota.com
+[+]401 Authorization Required
+[!]http://origin.www.tcom.aws.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://dev.tcuv.aws.toyota.com
+-->Certified Used Toyota Vehicles | Pre-Owned Cars, Trucks, SUVs &amp; Hybrids
+[!]http://dev.espanol.tcuv.aws.toyota.com
+-->Certified Used Toyota Vehicles | Pre-Owned Cars, Trucks, SUVs &amp; Hybrids
+[!]http://staging.tcuv.aws.toyota.com
+-->Certified Used Toyota Vehicles | Pre-Owned Cars, Trucks, SUVs &amp; Hybrids
+[!]http://carma-ws.tms.aws.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://ci.tms.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://ws.devcpd301.tms.aws.toyota.com
+[+]Test Page for the Apache HTTP Server on Red Hat Enterprise Web Server
+[!]http://www.origin.privacyvts.tms.aws.toyota.com
+[-]exception found, non-existant domain
+[!]http://www.origin.rto.tms.aws.toyota.com
+-->Toyota Owners Official Web Site
+[!]http://staging.origin.rto.tms.aws.toyota.com
+[+]401 Unauthorized
+[!]http://staging.search.rto.tms.aws.toyota.com
+[+]403 Forbidden
+[!]http://carma-ws.staging.tms.aws.toyota.com
+[+]401 Authorization Required
+[!]http://staging-talentlink.tms.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://toadmin.tms.aws.toyota.com
+[+]nothing found, you should check!
+[!]http://ws.tstcpd301.tms.aws.toyota.com
+[+]Test Page for the Apache HTTP Server on Red Hat Enterprise Web Server
+[!]http://www.origin.ws.tms.aws.toyota.com
+[+]403 Forbidden
+[!]http://cdn.toyota.com
+[+]nothing found, you should check!
+[!]http://configmgr.toyota.com
+[+]IIS Windows Server
+[!]http://cpdconf.toyota.com
+[+]Log In - CPD Project Collaboration
+[!]http://cpdjira.toyota.com
+[+]System Dashboard - TMS
+[!]http://cybersecurityjobs.toyota.com
+[-]exception found, non-existant domain
+[!]http://www.dam.toyota.com
+[+]5th Kind
+[!]http://ddmobileapps.toyota.com
+[+]Home
+[!]http://dealerdaily.toyota.com
+[+]nothing found, you should check!
+[!]http://dealerrss.toyota.com
+[+]nothing found, you should check!
+[!]http://eshowroom-prod.deops.toyota.com
+[+]eShowroom
+[!]http://eshowroom-stage.deops.toyota.com
+[+]eShowroom
+[!]http://skavastage.deops.toyota.com
+[+]TTS
+[!]http://rti.dev.toyota.com
+[+]nothing found, you should check!
+[!]http://api.dg.toyota.com
+[+]403 Forbidden
+[!]http://cdn.dg.toyota.com
+[+]403 Forbidden
+[!]http://socket.dg.toyota.com
+[+]503 Service Temporarily Unavailable
+[!]http://click.e.toyota.com
+[+]Redirect Link
+[!]http://image.e.toyota.com
+[+]nothing found, you should check!
+[!]http://pages.e.toyota.com
+[+]Problem Loading Page
+[!]http://view.e.toyota.com
+[+]nothing found, you should check!
+[!]http://api.rti.e2e.toyota.com
+[+]nothing found, you should check!
+[!]http://media.rti.e2e.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://ui.rti.e2e.toyota.com
+[+]Real-time Inventory
+[!]http://eaams01.toyota.com
+[+]nothing found, you should check!
+[!]http://email.toyota.com
+[+]Outlook
+[!]http://emanalytics.toyota.com
+[+]250ok | Email Analytics &amp; Deliverability
+[!]http://latam.en.toyota.com
+-->Newsroom | Toyota English
+[!]http://latam.es.toyota.com
+-->Bienvenido a la Sala de Prensa | Toyota Spanish
+[!]http://eshowroom.toyota.com
+[+]eShowroom
+[!]http://www.eshowroom.toyota.com
+[+]eShowroom
+[!]http://expresslane.toyota.com
+[+]nothing found, you should check!
+[!]http://iViewDC2.toyota.com
+[+]VMware Horizon
+[!]http://iViewDDC.toyota.com
+[+]VMware Horizon
+[!]http://iviewdc2.toyota.com
+[+]VMware Horizon
+[!]http://iviewddc.toyota.com
+[+]VMware Horizon
+[!]http://lyncdiscover.toyota.com
+[+]nothing found, you should check!
+[!]http://origin.staging.m.toyota.com
+[+]401 Authorization Required
+[!]http://mail-03.toyota.com
+[+]Outlook
+[!]http://marketplace.toyota.com
+[+]Lexus
+[!]http://marketplace-qa.toyota.com
+[+]Lexus
+[!]http://mep.toyota.com
+[+]nothing found, you should check!
+[!]http://metrics.toyota.com
+[+]nothing found, you should check!
+[!]http://autodiscover.mgd.toyota.com
+[+]Outlook
+[!]http://mobilityprogram.toyota.com
+[+]403 Forbidden
+[!]http://mybenefits.toyota.com
+[+]Home
+[!]http://www.mybenefits.toyota.com
+[+]Home
+[!]http://mydocs.toyota.com
+[+]nothing found, you should check!
+[!]http://mypartners.toyota.com
+[+]nothing found, you should check!
+[!]http://myteams.toyota.com
+[+]nothing found, you should check!
+[!]http://next.toyota.com
+[+]nothing found, you should check!
+[!]http://mail.o365.toyota.com
+[+]Outlook
+[!]http://o365spo-admin.toyota.com
+[+]nothing found, you should check!
+[!]http://o365spo-signout.toyota.com
+[+]nothing found, you should check!
+[!]http://o365spo-test.toyota.com
+[+]nothing found, you should check!
+[!]http://oat.toyota.com
+[+]Offers Admin Tool
+[!]http://staging.oat.toyota.com
+[+]Offers Admin Tool
+[!]http://oatservices.toyota.com
+[+]Apache Tomcat/8.0.23 - Error report
+[!]http://staging.oatservices.toyota.com
+[+]Apache Tomcat/8.0.23 - Error report
+[!]http://owners.toyota.com
+-->Toyota Owners Official Web Site
+[!]http://parts.toyota.com
+-->Toyota Parts Online | Genuine Toyota Parts &amp; Accessories
+[!]http://portal.toyota.com
+[+]nothing found, you should check!
+[!]http://pqss-assets.toyota.com
+[+]nothing found, you should check!
+[!]http://pressroom.toyota.com
+-->Toyota USA Newsroom
+[!]http://www.pressroom.toyota.com
+-->Toyota USA Newsroom
+[!]http://corporatenews.pressroom.toyota.com
+[+]Corporate
+[!]http://latinonews.pressroom.toyota.com
+[+]Latino
+[!]http://toyotanews.pressroom.toyota.com
+[-]exception found, non-existant domain
+[!]http://prius.toyota.com
+-->2018 Toyota Prius Hybrid Car | Take everyone by surprise.
+[!]http://www.prius.toyota.com
+-->2018 Toyota Prius Hybrid Car | Take everyone by surprise.
+[!]http://priusc.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://www.adplanner2.qa.toyota.com
+-->Toyota Ad Planner
+[!]http://www.dam.qa.toyota.com
+[+]5th Kind
+[!]http://ssologin-dc2-stg10.qa.toyota.com
+[+]403 Forbidden
+[!]http://rental.toyota.com
+-->Toyota Rent a Car
+[!]http://bitbucket.sdlc.toyota.com
+[+]Log in - TMNA Bitbucket
+[!]http://confluence.sdlc.toyota.com
+[+]Log In - TMNA Confluence
+[!]http://jira.sdlc.toyota.com
+[+]System Dashboard - TMNA JIRA
+[!]http://zephyr.sdlc.toyota.com
+[+]nothing found, you should check!
+[!]http://search.toyota.com
+[+]nothing found, you should check!
+[!]http://secure.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://securecheckout.toyota.com
+[+]Domain Parked
+[!]http://securedp.toyota.com
+[+]Redirect To Downloads
+[!]http://dl.securedp.toyota.com
+[+]nothing found, you should check!
+[!]http://staging.dl.securedp.toyota.com
+[+]nothing found, you should check!
+[!]http://staging.securedp.toyota.com
+[+]401 Authorization Required
+[!]http://sharethejourney.toyota.com
+[+]nothing found, you should check!
+[!]http://soar.toyota.com
+[+]nothing found, you should check!
+[!]http://soar-qa.toyota.com
+[+]Lexus
+[!]http://ssl.toyota.com
+[+]403 Forbidden
+[!]http://origin.ssl.toyota.com
+[+]403 Forbidden
+[!]http://staging.ssl.toyota.com
+[+]403 Forbidden
+[!]http://ssr.toyota.com
+[+]Lexus
+[!]http://ssr-qa.toyota.com
+[+]Lexus
+[!]http://staging.toyota.com
+[+]401 Authorization Required
+[!]http://adplanner2.staging.toyota.com
+-->Toyota Ad Planner
+[!]http://www.adplanner2.staging.toyota.com
+-->Toyota Ad Planner
+[!]http://cloudfront.application.www.adplanner2.staging.toyota.com
+[+]404 Not Found
+[!]http://cloudfront.cds.www.adplanner2.staging.toyota.com
+[+]nothing found, you should check!
+[!]http://www.dam.staging.toyota.com
+[+]5th Kind
+[!]http://aspera.dam.staging.toyota.com
+[+]Aspera Console
+[!]http://origin.staging.toyota.com
+[+]401 Authorization Required
+[!]http://secure.staging.toyota.com
+[+]401 Authorization Required
+[!]http://tags.toyota.com
+[+]nothing found, you should check!
+[!]http://teamsite-cloud.toyota.com
+[+]nothing found, you should check!
+[!]http://qa.telematics.toyota.com
+[+]nothing found, you should check!
+[!]http://status.telematics.toyota.com
+[+]Microsoft Azure Web Site - Welcome
+[!]http://status-mobile.telematics.toyota.com
+[+]Microsoft Azure Web Site - Welcome
+[!]http://status-mobile-qa.telematics.toyota.com
+[+]Microsoft Azure Web Site - Welcome
+[!]http://status-qa.telematics.toyota.com
+[+]nothing found, you should check!
+[!]http://test.telematics.toyota.com
+[+]nothing found, you should check!
+[!]http://rti.test.toyota.com
+[+]nothing found, you should check!
+[!]http://tmnafs.toyota.com
+[+]nothing found, you should check!
+[!]http://touch.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://www.touch.toyota.com
+[+]nothing found, you should check!
+[!]http://toyotamobility.toyota.com
+[+]403 Forbidden
+[!]http://toyotatmc.toyota.com
+-->Welcome to Toyota Complete Maintenance Care
+[!]http://tracking.toyota.com
+[+]Home Page - My ASP.NET Application
+[!]http://trdhydra.toyota.com
+[+]Hydra
+[!]http://trdnet.toyota.com
+[+]nothing found, you should check!
+[!]http://vds08a.toyota.com
+[+]VMware Horizon
+[!]http://wave5000.toyota.com
+[+]IIS Windows Server
+[!]http://cpd-eig.ws.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://origin.cpd-eig.ws.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://staging.cpd-eig.ws.toyota.com
+[+]401 Authorization Required
+[!]http://next.ws.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://origin.next.ws.toyota.com
+-->New Cars, Trucks, SUVs & Hybrids | Toyota Official Site
+[!]http://search.ws.toyota.com
+[+]403 Forbidden
+[!]http://next.staging.ws.toyota.com
+[+]401 Authorization Required
+[!]http://origin.next.staging.ws.toyota.com
+[+]401 Authorization Required
+** Successfully scanned **
