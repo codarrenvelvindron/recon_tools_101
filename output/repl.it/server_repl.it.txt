@@ -1,8 +1,0 @@
-http://api.repl.it
-None
-http://email.repl.it
-nginx
-http://eval.repl.it
-None
-http://wzrd.repl.it
-cloudflare

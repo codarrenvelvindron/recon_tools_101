@@ -1,4 +1,0 @@
-api.repl.it
-email.repl.it
-eval.repl.it
-wzrd.repl.it

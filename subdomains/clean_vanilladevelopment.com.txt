@@ -1,3 +1,0 @@
-development.vanilladevelopment.com
-mail.vanilladevelopment.com
-www-staging.vanilladevelopment.com

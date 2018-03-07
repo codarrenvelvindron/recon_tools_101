@@ -1,8 +1,0 @@
-www.hackerone.com
-api.hackerone.com
-go.hackerone.com
-info.hackerone.com
-links.hackerone.com
-a.ns.hackerone.com
-b.ns.hackerone.com
-support.hackerone.com
