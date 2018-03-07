@@ -18,7 +18,6 @@ import sys
 import os.path
 import requests
 import re
-import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
