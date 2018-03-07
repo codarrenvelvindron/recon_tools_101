@@ -1,0 +1,58 @@
+[+]Input file: clean_vanillacommunities.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: vanillacommunities.com
+[!]Your output filename was created !
+[!]Scanning titles for: 25 urls
+[!]http://www.vanillacommunities.com
+[+]UltraDNS Client Redirection Service
+[!]http://arenanet-es.vanillacommunities.com
+[+]Foros de Guild Wars 2
+[!]http://ashesofcreation.vanillacommunities.com
+[+]Ashes of Creation Community
+[!]http://capitalone.vanillacommunities.com
+[+]Vanilla Forums - Site not found
+[!]http://credible.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://digitalspy.vanillacommunities.com
+[+]Digital Spy
+[!]http://endurancenation.vanillacommunities.com
+[+]SignIn
+[!]http://goodgamelegends.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://koodo.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://lightseekers.vanillacommunities.com
+[+]Lightseekers Forum
+[!]http://littleguy.vanillacommunities.com
+[+]Little Guy Forum
+[!]http://marriedmansexlife.vanillacommunities.com
+[+]Vanilla Forums - Site not found
+[!]http://oculus.vanillacommunities.com
+[+]Oculus Discussion Forums
+[!]http://pennyarcade.vanillacommunities.com
+[+]Penny Arcade Forums
+[!]http://quantumhealing.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://red-gate.vanillacommunities.com
+[+]Redgate forums
+[!]http://resetyourbody.vanillacommunities.com
+[+]Vanilla Forums - Site not found
+[!]http://scopetest2.vanillacommunities.com
+[+]Vanilla Forums - Site not found
+[!]http://sitelink.vanillacommunities.com
+[+]Welcome to StorageForum
+[!]http://smtp.vanillacommunities.com
+[+]Vanilla Forums - Site not found
+[!]http://tbs.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://tedwebers-famous-loudspeakers.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://watchguard.vanillacommunities.com
+[-]exception found, non-existant domain
+[!]http://webmail.vanillacommunities.com
+[+]Vanilla Forums - Site not found
+[!]http://zcommunity2.vanillacommunities.com
+[+]Z-Community
+** Successfully scanned **

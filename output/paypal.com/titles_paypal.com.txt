@@ -1,0 +1,138 @@
+[+]Input file: clean_paypal.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: paypal.com
+[!]Your output filename was created !
+[!]Scanning titles for: 65 urls
+[!]http://www.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://Lyncdiscover.paypal.com
+[+]nothing found, you should check!
+[!]http://ad.paypal.com
+[+]nothing found, you should check!
+[!]http://adjvendor.paypal.com
+[+]nothing found, you should check!
+[!]http://advertising.paypal.com
+[+]nothing found, you should check!
+[!]http://api-m.paypal.com
+[+]nothing found, you should check!
+[!]http://api-pxp.paypal.com
+[+]nothing found, you should check!
+[!]http://api-s.paypal.com
+[+]nothing found, you should check!
+[!]http://autodiscover.paypal.com
+[+]Sign On
+[!]http://business.paypal.com
+[-]exception found, non-existant domain
+[!]http://c.paypal.com
+[+]nothing found, you should check!
+[!]http://commerce.paypal.com
+-->Welcome to PayPal Commerce
+[!]http://credit.paypal.com
+[+]nothing found, you should check!
+[!]http://creditapply.paypal.com
+[+]Apply Now
+[!]http://creditcard.paypal.com
+[+]Registered &amp; Protected by MarkMonitor
+[!]http://demo.paypal.com
+-->PayPal Demo
+[!]http://devblog.paypal.com
+-->PayPal Engineering Blog | Engineering
+[!]http://developer.paypal.com
+-->PayPal Developer
+[!]http://dme-origin-www-1.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://dme-origin-www-2.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://dropzone.paypal.com
+[+]Error 401 Unauthorized
+[!]http://empresas.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://financing.paypal.com
+-->PayPal Financing | Learn More | PayPal US
+[!]http://api.financing.paypal.com
+[+]403 Forbidden
+[!]http://api.financing-mint.paypal.com
+[+]403 Forbidden
+[!]http://he.paypal.com
+[+]nothing found, you should check!
+[!]http://history.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://ic.paypal.com
+-->Send Money, Pay Online or Set Up a Merchant Account - PayPal
+[!]http://images.paypal.com
+[+]403 Forbidden
+[!]http://lyncdiscover.paypal.com
+[+]nothing found, you should check!
+[!]http://m.paypal.com
+-->Error - PayPal
+[!]http://mail.paypal.com
+[+]nothing found, you should check!
+[!]http://manager.paypal.com
+-->PayPal Manager
+[!]http://mobile.paypal.com
+-->Error - PayPal
+[!]http://mobileclient.paypal.com
+[+]JBoss Web/7.0.17.Final - Error report
+[!]http://origin-t.paypal.com
+[+]nothing found, you should check!
+[!]http://p.paypal.com
+[+]nothing found, you should check!
+[!]http://partnermanager.paypal.com
+-->PayPal Partner Manager
+[!]http://pep.paypal.com
+[+]nothing found, you should check!
+[!]http://personal.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://petition.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://phx-origin-pointofsale.paypal.com
+[+]nothing found, you should check!
+[!]http://pics.paypal.com
+[+]nothing found, you should check!
+[!]http://pilot-coupons.paypal.com
+[+]nothing found, you should check!
+[!]http://pointofsale.paypal.com
+[+]nothing found, you should check!
+[!]http://pointofsale-s.paypal.com
+[+]nothing found, you should check!
+[!]http://qa-coupons.paypal.com
+[+]nothing found, you should check!
+[!]http://registration.paypal.com
+-->PayPal - Registration
+[!]http://safetyhub.paypal.com
+[+]Apache Tomcat/8.0.24
+[!]http://sandbox.paypal.com
+-->Send Money, Pay Online or Set Up a Merchant Account - PayPal
+[!]http://www.sandbox.paypal.com
+-->Send Money, Pay Online or Set Up a Merchant Account - PayPal
+[!]http://api-m.sandbox.paypal.com
+[+]nothing found, you should check!
+[!]http://api-s.sandbox.paypal.com
+[+]nothing found, you should check!
+[!]http://business.sandbox.paypal.com
+-->Log in to your PayPal account
+[!]http://business-signup.sandbox.paypal.com
+[+]nothing found, you should check!
+[!]http://securepayments.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://shopping.paypal.com
+-->PayPal Shopping
+[!]http://slc-a-origin-pointofsale.paypal.com
+[+]nothing found, you should check!
+[!]http://slc-b-origin-pointofsale.paypal.com
+[+]nothing found, you should check!
+[!]http://slc-b-origin-t.paypal.com
+[-]exception found, non-existant domain
+[!]http://solutions.paypal.com
+-->Send Payments or Pay Online - PayPal SG
+[!]http://status.paypal.com
+-->PayPal Status Page
+[!]http://stg-coupons.paypal.com
+[+]nothing found, you should check!
+[!]http://t.paypal.com
+[+]nothing found, you should check!
+[!]http://tlstest.paypal.com
+[+]nothing found, you should check!
+** Successfully scanned **

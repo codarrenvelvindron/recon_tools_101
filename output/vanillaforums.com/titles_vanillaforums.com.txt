@@ -1,0 +1,304 @@
+[+]Input file: clean_vanillaforums.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: vanillaforums.com
+[!]Your output filename was created !
+[!]Scanning titles for: 148 urls
+[!]http://www.vanillaforums.com
+[+]Online Community Software and Customer Forum Software by Vanilla Forums
+[!]http://100challenge.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://300hours.vanillaforums.com
+[+]300 Hours CFA Forum
+[!]http://9thsecurity.vanillaforums.com
+[+]9th Security Industries
+[!]http://accounts.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://achaea.vanillaforums.com
+[+]Achaea Forums
+[!]http://agathachristie.vanillaforums.com
+[+]Agatha Christie Community Forum
+[!]http://alfg.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://alienvault.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://allhiphop.vanillaforums.com
+[+]The Ill Community
+[!]http://analytics.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://appcat.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://audioexotics.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://battlebears.vanillaforums.com
+[+]Official Battle Bears Forum!
+[!]http://battlebears-staging.vanillaforums.com
+[+]BB Testing Forum
+[!]http://battlefield-hub.vanillaforums.com
+[+]Battlefield Forums
+[!]http://biggreenegg.vanillaforums.com
+[+]Big Green Egg EGGhead Forum
+[!]http://binaryoptions.vanillaforums.com
+[+]BinaryOptions.net Forum
+[!]http://blog.vanillaforums.com
+[+]Vanilla Forums Blog - News &amp; Information about the most popular discussion forum on the web.
+[!]http://stage.blog.vanillaforums.com
+[+]Log In &lsaquo; Vanilla Blog [stage] &#8212; WordPress
+[!]http://bluegrasstoday.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://boyzforum.vanillaforums.com
+[+]BoyzForum!
+[!]http://brickset.vanillaforums.com
+[+]Brickset Forum
+[!]http://broadinstitute.vanillaforums.com
+[+]Broad Institute
+[!]http://broadnext10.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://cdn.vanillaforums.com
+[+]nothing found, you should check!
+[!]http://certifications.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://charltonlife.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://cityparksalliance.vanillaforums.com
+[+]City Parks Alliance
+[!]http://sherlomes.cl0.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://starcommand.cl0.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://cdn.cl9.vanillaforums.com
+[+]nothing found, you should check!
+[!]http://clarity.vanillaforums.com
+[+]CLARITY forum
+[!]http://clickfree.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://collegeconfidential.vanillaforums.com
+[+]College Confidential
+[!]http://cyta.vanillaforums.com
+[+]Cyta Forum
+[!]http://d2b.vanillaforums.com
+[+]Deals2Buy Forum
+[!]http://digitalsizzle.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://dmp.vanillaforums.com
+[+]Draw Mix Paint Forum
+[!]http://docs.vanillaforums.com
+[+]Vanilla Forums Documentation
+[!]http://ecetalk.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://edmunds.vanillaforums.com
+[+]nothing found, you should check!
+[!]http://enyojs.vanillaforums.com
+[+]Enyo Discussion Forums
+[!]http://ethereum.vanillaforums.com
+[+]Ethereum Community Forum
+[!]http://exposedbrickdc.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://fb.vanillaforums.com
+[+]fb
+[!]http://fba.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://fii.vanillaforums.com
+[+]Investor Forum
+[!]http://first5.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://formeremortals.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://forums.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://gatk.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://gbanga.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://glenmorelodge.vanillaforums.com
+[+]Glenmore Lodge Travel Forum
+[!]http://godfreypontoonboats.vanillaforums.com
+[+]Godfrey Pontoon Boats
+[!]http://goflight.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://groups.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://harmonix.vanillaforums.com
+[+]Welcome to the Harmonix Community Forums!
+[!]http://hearingjourney.vanillaforums.com
+[+]HearingJourney
+[!]http://hermes.vanillaforums.com
+[+]Hermes | Couriers Online - Home Page
+[!]http://homebrewonline.vanillaforums.com
+[+]Home Brew Online Forum
+[!]http://hurricaneboats.vanillaforums.com
+[+]Hurricane Deck Boats
+[!]http://hydrohq.vanillaforums.com
+[+]K2Forums.com for all your Hydrographics Questions
+[!]http://igropraktika.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://iheartpublix.vanillaforums.com
+[+]I Heart Publix Forum
+[!]http://imperian.vanillaforums.com
+[+]Imperian
+[!]http://internal.vanillaforums.com
+[+]Vanilla Forums Documentation
+[!]http://interneerqa.vanillaforums.com
+[+]Intellect Forum
+[!]http://investment-mastery.vanillaforums.com
+[+]Forum
+[!]http://iphonedevsdk.vanillaforums.com
+[+]iPhone Dev SDK - iOS Developer Forums
+[!]http://japanrailpass.vanillaforums.com
+[+]Travel to Japan | Forum Japan Rail Pass
+[!]http://juliehedlund.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://kb.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://kissenacycling.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://laspuertasdelcielo.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://leadnav.vanillaforums.com
+[+]LEADNAV Forum
+[!]http://learnenglish.vanillaforums.com
+[+]Learn English
+[!]http://library.vanillaforums.com
+[+]Vanilla Forums Library - Resources &amp; Guides for Using Vanilla Forums | Vanilla Forums Library
+[!]http://links.vanillaforums.com
+[+]Sign in - Google Accounts
+[!]http://livefish3.vanillaforums.com
+[+]Livefish.com.au Community Forums
+[!]http://makethecut.vanillaforums.com
+[+]Make The Cut! Forum
+[!]http://marriedmansexlife.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://mayhemforums.vanillaforums.com
+[+]Metal Uprising
+[!]http://mediacy.vanillaforums.com
+[+]Media Cybernetics Image Analysis Forums
+[!]http://megacongames.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://mfp-hub.vanillaforums.com
+[+]nothing found, you should check!
+[!]http://mmorpg.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://monton.vanillaforums.com
+[+]monton
+[!]http://myfitnesspal.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://mysql.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://nbproject.vanillaforums.com
+[+]NB Project Forum
+[!]http://nerdfighteria.vanillaforums.com
+[+]nerdfighteria
+[!]http://open.vanillaforums.com
+[+]Open Source Community Forum Software
+[!]http://openclinica.vanillaforums.com
+[+]OpenClinica Forums
+[!]http://orioncooker.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://www.orisi.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://pages.vanillaforums.com
+[+]nothing found, you should check!
+[!]http://payoneer-staging.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://pearljam.vanillaforums.com
+[+]Pearl Jam Community
+[!]http://pebble.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://pennyarcade-staging.vanillaforums.com
+[+]Penny Arcade Forumz
+[!]http://pggm.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://photoartgallery.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://photos.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://pockettactics.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://polarkraftboats.vanillaforums.com
+[+]Vanilla Forums - Maintenance
+[!]http://politicalbetting.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://pooldemo.vanillaforums.com
+[+]Official 8 Ball Pool Forum
+[!]http://potter.vanillaforums.com
+[+]Harry Potter Forum
+[!]http://powersystems.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://programmersheaven.vanillaforums.com
+[+]Vanilla Forums - Disabled
+[!]http://propertytribestradingpost.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://resources.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://rinkerboats.vanillaforums.com
+[+]Rinker Boats
+[!]http://rkdn.vanillaforums.com
+[+]RKDN Studios
+[!]http://robotstudio.vanillaforums.com
+[+]ABB Robotics
+[!]http://sac.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://sarien.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://sciencetrax.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://shoryuken.vanillaforums.com
+[+]Vanilla Forums - Maintenance
+[!]http://shoryuken-staging.vanillaforums.com
+[+]admin
+[!]http://sites.vanillaforums.com
+[+]Sign in - Google Accounts
+[!]http://smtp.vanillaforums.com
+[+]404 Not Found
+[!]http://spartacusgame.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://stage.vanillaforums.com
+[+]403 Forbidden
+[!]http://status.vanillaforums.com
+[+]Vanilla Forums Status
+[!]http://stsci.vanillaforums.com
+[+]Space Telescope Science Institute Forums
+[!]http://superputty.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://support.vanillaforums.com
+[+]Vanilla Forums Help
+[!]http://tab-rv.vanillaforums.com
+[+]T@B Forum
+[!]http://tcm.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://thecomicforums.vanillaforums.com
+[+]Comic Geek Speak
+[!]http://theknot.vanillaforums.com
+[+]The Knot
+[!]http://thenest-staging.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://typeboard.vanillaforums.com
+[+]TypeDrawers
+[!]http://uc4software.vanillaforums.com
+[+]Automic Community
+[!]http://ultrasound.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://unbounce.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://unknownworlds.vanillaforums.com
+[+]Unknown Worlds Forums
+[!]http://v2cigs.vanillaforums.com
+[+]Ecig Forum | Find Answers to Your Questions about Vaping, V2, and Electronic Cigarettes
+[!]http://vadysoft-mibuso.vanillaforums.com
+[+]Microsoft Business Solutions online community
+[!]http://email.vfcom.vanillaforums.com
+[+]nothing found, you should check!
+[!]http://vinous.vanillaforums.com
+[-]exception found, non-existant domain
+[!]http://vintagemovieposters.vanillaforums.com
+[+]The Vintage Movie Posters Forum
+[!]http://webmail.vanillaforums.com
+[+]Error 404 (Not Found)!!1
+[!]http://xamarin.vanillaforums.com
+[+]Xamarin Forums
+[!]http://ydn.vanillaforums.com
+[+]Vanilla Forums - Site not found
+[!]http://zenfolio.vanillaforums.com
+[+]Zenfolio User Forums
+** Successfully scanned **

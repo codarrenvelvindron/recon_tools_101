@@ -1,0 +1,14 @@
+[+]Input file: clean_hackerone.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: hackerone.com
+[!]Your output filename was created !
+[!]Scanning titles for: 3 urls
+[!]http://www.hackerone.com
+-->Bug Bounty, Vulnerability Coordination - HackerOne
+[!]http://api.hackerone.com
+-->HackerOne API documentation
+[!]http://support.hackerone.com
+-->HackerOne
+** Successfully scanned **

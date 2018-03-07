@@ -1,0 +1,50 @@
+[+]Input file: clean_vanillastaging.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: vanillastaging.com
+[!]Your output filename was created !
+[!]Scanning titles for: 21 urls
+[!]http://arenanet1.vanillastaging.com
+[-]exception found, non-existant domain
+[!]http://bss-cigar.vanillastaging.com
+[+]QA.Cigar.com Forum
+[!]http://contactafamily.vanillastaging.com
+[+]Find other families like yours. Chat. Ask. Support. Campaign.
+[!]http://flashmobile.vanillastaging.com
+[+]Comunidad - Soporte Flash Mobile
+[!]http://freedompop.vanillastaging.com
+[-]exception found, non-existant domain
+[!]http://homepage.vanillastaging.com
+[+]Vanilla Forums - Site not found
+[!]http://iearn.vanillastaging.com
+[+]iEARN Collaboration Centre
+[!]http://kentico.vanillastaging.com
+[+]Kentico Cloud Community
+[!]http://koodo.vanillastaging.com
+[+]Koodo Agent Community
+[!]http://lightseekers.vanillastaging.com
+[+]Lightseekers Staging
+[!]http://littleguy.vanillastaging.com
+[-]exception found, non-existant domain
+[!]http://mcoc.vanillastaging.com
+[-]exception found, non-existant domain
+[!]http://microsoftstudios.vanillastaging.com
+[+]Official Age of Empires Forum
+[!]http://pics.vanillastaging.com
+[+]Vanilla Forums - Site not found
+[!]http://pictures.vanillastaging.com
+[+]Vanilla Forums - Site not found
+[!]http://release.vanillastaging.com
+[+]Vanilla Forums - Site not found
+[!]http://starwarstest-hub.vanillastaging.com
+[+]nothing found, you should check!
+[!]http://status.vanillastaging.com
+[+]Vanilla Forums - Site not found
+[!]http://tftf.vanillastaging.com
+[+]Logging in...
+[!]http://watchguard.vanillastaging.com
+[-]exception found, non-existant domain
+[!]http://zyxel.vanillastaging.com
+[+]Zyxel Biz Forum
+** Successfully scanned **

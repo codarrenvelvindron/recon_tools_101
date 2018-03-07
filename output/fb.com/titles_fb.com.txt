@@ -1,0 +1,252 @@
+[+]Input file: clean_fb.com.txt was found
+[+]Reading input file
+[+]Version 1.0
+[!]Give me urls and I give titles!
+[!]Website Tested: fb.com
+[!]Your output filename was created !
+[!]Scanning titles for: 122 urls
+[!]http://www.fb.com
+[+]nothing found, you should check!
+[!]http://360video.fb.com
+[+]Facebook 360 Video
+[!]http://agencies.fb.com
+[+]Facebook Agency Directory
+[!]http://apmms.fb.com
+[+]Facebook Associate Product Marketing Managers &#8211; Unleash your potential
+[!]http://autodiscover.fb.com
+[+]Outlook Web App
+[!]http://communities.fb.com
+[+]Facebook Community Leadership Program
+[!]http://content.fb.com
+[+]nothing found, you should check!
+[!]http://counterspeech.fb.com
+[+]nothing found, you should check!
+[!]http://creativehub.fb.com
+[+]nothing found, you should check!
+[!]http://phabricator.cstools.fb.com
+[+]nothing found, you should check!
+[!]http://phabricatorfiles.cstools.fb.com
+[+]nothing found, you should check!
+[!]http://deutschland.fb.com
+[-]exception found, non-existant domain
+[!]http://digitalskill.fb.com
+[+]Digital Training Hub from Facebook &#8211; Free training and tools to boost your digital marketing skills and grow your business.
+[!]http://digitalskills.fb.com
+[+]Digital Training Hub from Facebook &#8211; Free training and tools to boost your digital marketing skills and grow your business.
+[!]http://digitalskillsmichigan.fb.com
+[+]Digital Skills from Facebook
+[!]http://digitaltraining.fb.com
+[+]Digital Training Hub from Facebook &#8211; Free training and tools to boost your digital marketing skills and grow your business.
+[!]http://donations.fb.com
+[+]Charitable Giving Tools
+[!]http://ds1-dev.fb.com
+[+]Digital Training Hub from Facebook &#8211; Free training and tools to boost your digital marketing skills and grow your business.
+[!]http://ds1-preprod.fb.com
+[+]Digital Training Hub from Facebook &#8211; Free training and tools to boost your digital marketing skills and grow your business.
+[!]http://ds2-dev.fb.com
+-->fb-education-hub-develop.go-vip.co &#8211; Just another WordPress site
+[!]http://ds2-preprod.fb.com
+-->fb-education-hub-preprod.go-vip.co &#8211; Just another WordPress site
+[!]http://engineerfortheweek.fb.com
+[+]Engineer for the Week
+[!]http://www.engineerfortheweek.fb.com
+[+]Engineer for the Week
+[!]http://estacaohack.fb.com
+[+]Esta&ccedil;&atilde;o Hack
+[!]http://eu.fb.com
+[+]Facebook Europe &#8211; Our impact in Europe
+[!]http://europeanunion.fb.com
+[+]Facebook Europe &#8211; Our impact in Europe
+[!]http://events.fb.com
+[+]Facebook Events &#8211; Your guide to hosting great events with Facebook
+[!]http://facebook360.fb.com
+[+]Facebook 360 Video
+[!]http://facebookinnigeria.fb.com
+[+]Facebook Nigeria
+[!]http://france.fb.com
+[+]Facebook France &#8211; Notre impact en France
+[!]http://free.fb.com
+[-]exception found, non-existant domain
+[!]http://germany.fb.com
+[-]exception found, non-existant domain
+[!]http://go.fb.com
+[+]nothing found, you should check!
+[!]http://groups.fb.com
+[+]nothing found, you should check!
+[!]http://gs.fb.com
+[+]nothing found, you should check!
+[!]http://h.fb.com
+[-]exception found, non-existant domain
+[!]http://hacktober.fb.com
+[+]nothing found, you should check!
+[!]http://hardquestions.fb.com
+[+]Hard Questions | Facebook Newsroom
+[!]http://insidefeed.fb.com
+-->insidefeed-fb-com.go-vip.co &#8211; Just another WordPress site
+[!]http://www.insidefeed.fb.com
+[+]404 Not Found
+[!]http://insights.fb.com
+[+]nothing found, you should check!
+[!]http://inspired.fb.com
+[+]InspirED &#8211; Get inspirED
+[!]http://instantarticles.fb.com
+[+]Instant Articles  |  Facebook
+[!]http://phabricator.intern.fb.com
+[+]nothing found, you should check!
+[!]http://phabricatorfiles.intern.fb.com
+[+]nothing found, you should check!
+[!]http://phabricator.internmc.fb.com
+[+]nothing found, you should check!
+[!]http://phabricatorfiles.internmc.fb.com
+[+]nothing found, you should check!
+[!]http://investor.fb.com
+[+]Facebook - Home
+[!]http://ldnlab.fb.com
+[+]LDN_LAB
+[!]http://ldnlabcreators.fb.com
+[+]LDN_LAB: Creators
+[!]http://live.fb.com
+[+]Facebook Live | Live Video Streaming
+[!]http://madebykorea.fb.com
+[+]Facebook
+[!]http://managingbias.fb.com
+[+]Managing Bias | Facebook
+[!]http://media.fb.com
+[+]nothing found, you should check!
+[!]http://messenger.fb.com
+[+]Messenger | Businesses &amp; Developers | Official Website
+[!]http://www.messenger.fb.com
+[+]404 Not Found
+[!]http://messengerplatform.fb.com
+[+]Messenger | Businesses &amp; Developers | Official Website
+[!]http://mobilemoves.fb.com
+[+]Mobile Moves Commerce - Unlock the future of commerce
+[!]http://mobilemovespeople.fb.com
+[+]Mobile Moves People
+[!]http://newsfeed.fb.com
+[+]Facebook News Feed &#8211; Welcome To The Stories That Matter
+[!]http://newsroom.fb.com
+[+]Facebook Newsroom
+[!]http://au.newsroom.fb.com
+[+]Protected Blog &rsaquo; Log in
+[!]http://br.newsroom.fb.com
+[+]Facebook Newsroom Brazil
+[!]http://ca.newsroom.fb.com
+[+]Protected Blog &rsaquo; Log in
+[!]http://de.newsroom.fb.com
+[+]Facebook Newsroom D-A-CH | Die Welt offener und verbundener machen.
+[!]http://es.newsroom.fb.com
+[+]Facebook Newsroom Spain
+[!]http://fr.newsroom.fb.com
+[+]Facebook Newsroom France
+[!]http://gb.newsroom.fb.com
+[+]Protected Blog &rsaquo; Log in
+[!]http://in.newsroom.fb.com
+[+]Protected Blog &rsaquo; Log in
+[!]http://it.newsroom.fb.com
+[+]Blog Protetto &rsaquo; Accedi
+[!]http://ja.newsroom.fb.com
+[-]exception found, non-existant domain
+[!]http://ko.newsroom.fb.com
+[+]Facebook Newsroom Korea
+[!]http://ltam.newsroom.fb.com
+[+]Facebook Newsroom Latin America
+[!]http://nonprofits.fb.com
+[+]Nonprofits on Facebook
+[!]http://peoplepractices.fb.com
+-->Facebook People Practices | FB People Practices
+[!]http://phabricator.fb.com
+[+]nothing found, you should check!
+[!]http://phabricatorfiles.fb.com
+[+]nothing found, you should check!
+[!]http://placetips.fb.com
+[+]Facebook Place Tips | Bluetooth Beacons
+[!]http://politics.fb.com
+[+]Facebook for Politics
+[!]http://portal.fb.com
+[+]Page Not Found
+[!]http://quill.fb.com
+[-]exception found, non-existant domain
+[!]http://reports.fb.com
+[+]Y U NO PAGE!!! Page Not Found
+[!]http://research.fb.com
+[+]Facebook Research &#8211; At Facebook, research permeates everything we do. We believe the most interesting research questions are derived from real world problems.
+[!]http://rightsmanager.fb.com
+[+]Copyright Management | Facebook
+[!]http://search.fb.com
+[+]nothing found, you should check!
+[!]http://sheleadstechin.fb.com
+[+]SheLeadsTech India
+[!]http://shemeansbusiness.fb.com
+[+]Home - When women succeed, we all win.
+[!]http://signal.fb.com
+[+]Signal
+[!]http://accounts.signal.fb.com
+[+]nothing found, you should check!
+[!]http://startup.fb.com
+[+]Startup Training Hub from Facebook &#8211; Free training and tools for ambitious entrepreneurs.
+[!]http://startupgarage.fb.com
+[+]Startup Garage Paris from Facebook
+[!]http://startuphub.fb.com
+[+]Startup Training Hub from Facebook &#8211; Free training and tools for ambitious entrepreneurs.
+[!]http://startups.fb.com
+[+]Startup Training Hub from Facebook &#8211; Free training and tools for ambitious entrepreneurs.
+[!]http://su1-dev.fb.com
+[+]Startup Training Hub from Facebook &#8211; Free training and tools for ambitious entrepreneurs.
+[!]http://su1-preprod.fb.com
+[+]Startup Training Hub from Facebook &#8211; Free training and tools for ambitious entrepreneurs.
+[!]http://sustainability.fb.com
+[+]Facebook Sustainability | Sustainability Energy Efficiency &amp; Renewable Energy | Facebook
+[!]http://de.sustainability.fb.com
+[+]Facebook Nachhaltigkeit | Nachhaltigkeit, Energieeffizienz &amp; erneuerbare Energie | Facebook
+[!]http://fr.sustainability.fb.com
+[-]exception found, non-existant domain
+[!]http://techprep.fb.com
+[+]TechPrep &#8211; See what you can build
+[!]http://www.techprep.fb.com
+[+]TechPrep &#8211; See what you can build
+[!]http://es.techprep.fb.com
+[+]TechPrep &#8211; Mira lo que puedes crear
+[!]http://techstart.fb.com
+[+]TechStart
+[!]http://www.techstart.fb.com
+[+]TechStart
+[!]http://threatexchange.fb.com
+[+]nothing found, you should check!
+[!]http://videoapp.fb.com
+[+]Facebook video app for Smart TV and Streaming Devices
+[!]http://workplace.fb.com
+[+]nothing found, you should check!
+[!]http://workplaceblog.fb.com
+[+]Workplace Stories &#8211; The official Workplace blog
+[!]http://yearinreview.fb.com
+[+]2015 Year in Review
+[!]http://ar.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://au.yearinreview.fb.com
+[+]Facebook Year in Review 2015
+[!]http://br.yearinreview.fb.com
+[+]Facebook Retrospectiva do Ano 2015
+[!]http://de.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://es.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://fr.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://in.yearinreview.fb.com
+[+]Facebook Year in Review 2015
+[!]http://it.yearinreview.fb.com
+[+]Facebook L&#039;anno in Breve 2015
+[!]http://jp.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://kr.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://mx.yearinreview.fb.com
+[-]exception found, non-existant domain
+[!]http://uk.yearinreview.fb.com
+[+]Facebook Year in Review 2015
+[!]http://yourbusinessstory.fb.com
+[+]nothing found, you should check!
+[!]http://z-m-portal.fb.com
+[+]Page Not Found
+** Successfully scanned **
