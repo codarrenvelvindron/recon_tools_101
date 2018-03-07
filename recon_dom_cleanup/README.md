@@ -12,6 +12,9 @@
 ## Changelog
 * Version 1.0 - Takes a list of urls, keeps valid urls
 and saves them in a file called clean_domainname.txt
+Output folder is now centralised.
+Corrected a few bugs on domain resolving
+Added banner
 
 ## Author
 * Codarren Velvindron (codarren@hackers.mu)

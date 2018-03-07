@@ -70,10 +70,13 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    info ("========**************========")
-    info ("Recon_dom_cleanup by Codarren Velvindron")
-    info ("========**************========")
-    info ("Version 0.1")
+    print("""%s
+  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^   ^   ^  
+ /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /c\ /l\ /e\ /a\ /n\ /u\ /p\ 
+<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___X___X___>%s%s
+
+                ==Codarren Velvindron== | codarren@hackers.mu
+    """ % (G,Y,W))
     info ("Let me check, and invalidate urls!")
     info ("Website Tested: " + m)
     info ("Your output filename was created  !")
@@ -126,6 +129,7 @@ def return_valid(i, o):
 
         info ("Valid urls: " + str(valid_counter))
         info ("Invalid urls: " + str(invalid_counter))
+
 #Main function
 def main():
     #Start reading file if exists or stop if not exists
@@ -145,7 +149,7 @@ if __name__ == "__main__":
     #0-Globals
     args = parse_args()
     if not args.domain:
-        sys.exit('[!] Enter domain to check please: ./recon_dom_title.py -d "test.org"')
+        sys.exit('[!] Enter domain to check please: ./recon_dom_cleanup.py -d "test.org"')
     if "http" in args.domain:
         sys.exit('[!] Must be in the format: -d "example.com"')
 
@@ -154,7 +158,7 @@ if __name__ == "__main__":
     name = z[0]
     input_filename = "input_" + mainurl + ".txt"
     output_filename = "clean_" + mainurl + ".txt"
-    fn = os.path.join("./subdomains/",output_filename)
+    fn = os.path.join("./subdomains/", output_filename)
     fh = open(fn, "w")
 
 

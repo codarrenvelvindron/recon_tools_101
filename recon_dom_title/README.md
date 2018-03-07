@@ -13,6 +13,9 @@
 * Version 1.0: Some bugs corrected.
 It now takes input from recon_dom_cleanup i.e. valid urls
 The output files are no longer appended, a new file is created.
+Output folder is now centralised.
+Corrected a few bugs
+Added banner
 
 * Version 0.5: Takes a list of urls and returns titles
 

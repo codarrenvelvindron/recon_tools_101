@@ -18,7 +18,6 @@ import sys
 import os.path
 import requests
 import re
-import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
@@ -81,9 +80,12 @@ def input_filename_check(n):
 
 #3-Output file creator
 def output_file_init(n, m):
-    positive ("========**************========")
-    positive ("Recon_dom_title by Codarren Velvindron")
-    positive ("========**************========")
+    print("""%s
+  ^   ^   ^   ^   ^       ^   ^   ^       ^   ^   ^   ^   ^  
+ /r\ /e\ /c\ /o\ /n\     /d\ /o\ /m\     /t\ /i\ /t\ /l\ /e\ 
+<___X___X___X___X___>   <___X___X___>   <___X___X___X___X___>%s%s
+         ==Codarren Velvindron== | codarren@hackers.mu
+    """ % (G,Y,W))
     positive ("Version 1.0")
     info ("Give me urls and I give titles!")
     info ("Website Tested: " + m)
@@ -169,7 +171,7 @@ if __name__ == "__main__":
     name = z[0]
     input_filename = "clean_" + mainurl + ".txt"
     output_filename = "titles_" + mainurl + ".txt"
-    fn = os.path.join("./output/",output_filename)
+    fn = os.path.join("./output/", mainurl, output_filename)
     fh = open(fn, "w")
 
 
